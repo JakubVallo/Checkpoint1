@@ -1,0 +1,77 @@
+.navbar {
+    background-color: transparent;
+    padding-bottom: 40px;
+}
+
+body {
+    background-image: url("ImagesIceCream/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+
+.absolute-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pohar-image {
+    object-position: center; /* Center the content of the image */
+}
+
+.navbar {
+    z-index: 2; /* Ensure the navbar is on top of the carousel */
+    position: sticky;
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    border: 2px solid palegoldenrod; /* Nastaví orámovanie */
+    transform: scale(1.2);
+
+}
+
+.navbar-brand:hover {
+    border: 1px solid palegoldenrod; /* Nastaví orámovanie */
+    transform: scale(1.2);
+}
+
+.col:hover {
+    transform: scale(1.1);
+}
+
+.btn.btn-dark:hover {
+    transform: scale(1.2); /* Scale the button by 20% on hover */
+}
+
+/* Base styles for larger screens */
+.navbar-container {
+    background-color: transparent;
+}
+
+.navbar {
+    padding: 20px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    padding: 0 40px;
+}
+
+.navbar-nav a {
+    font-size: 30px;
+    padding-right: 40px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+

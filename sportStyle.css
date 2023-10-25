@@ -1,0 +1,164 @@
+/* styles.css */
+body {
+    background: url(ImagesSport/background.avif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: black;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    font-size: 30px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.feature {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background-size: cover;
+    text-align: center;
+    padding: 0px;
+    color: black;
+    font-size: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #FF5733;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center the content */
+    flex-wrap: wrap; /* Wrap to the next line if needed */
+    padding: 20px;
+}
+
+.feature {
+    text-align: center;
+    margin: 10px; /* Add some spacing between features */
+}
+
+.feature img {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.feature h2, .feature p {
+    text-align: center;
+}
+
+h2 {
+    padding: 0px;
+    font-size: 50px;
+    color:  #000cfa;
+}
+
+h2:hover {
+    color: #000cfa;
+    transform: scale(1.15);
+    text-decoration: underline; /*!* Nastaví orámovanie *!*/
+}
+
+/* Změna barvy textu pro Home na modrou */
+nav ul li:nth-child(1) a:hover {
+    color: lightgreen;
+    border: 1px solid lightgreen; /* Nastaví orámovanie */
+
+}
+
+/* Změna barvy textu pro Actualities na zelenou */
+nav ul li:nth-child(2) a:hover {
+    color: lightgreen;
+    border: 1px solid lightgreen; /* Nastaví orámovanie */
+
+}
+
+/* Změna barvy textu pro Live na červenou */
+nav ul li:nth-child(3) a:hover {
+    color: lightgreen;
+    border: 1px solid red; /* Nastaví orámovanie */
+}
+
+/* Změna barvy textu pro Results na oranžovou */
+nav ul li:nth-child(4) a:hover {
+    color: lightgreen;
+    border: 1px solid lightgreen; /* Nastaví orámovanie */
+}
+
+nav ul li:nth-child(5) a:hover {
+    color: goldenrod;
+    border: 1px solid goldenrod; /* Nastaví orámovanie */
+}
+
+.content:hover  {
+    transform: scale(1.05);
+}
+
+p {
+    font-size: 40px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+    ul {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .search {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .search input, .search button {
+        font-size: 16px;
+    }
+}
+@media (max-width: 480px) {
+    .feature {
+        flex-basis: 100%;
+    }
+}
+
+
